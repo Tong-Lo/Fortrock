@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta NAME="keywords" CONTENT="Independent,private,investment,firm,focused,providing,capital,solutions,lower,midmarket,companies,growth,opportunities ">
+
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+	<title>Fort Rock Capital</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body,
+		html {
+			height: 100%;
+		}
+
+		body {
+			background-image: url('assets/img/hero-bg.jpg');
+			/* Replace with your image URL */
+			background-size: cover;
+			/* Ensures the image covers the entire background */
+			background-position: center center;
+			/* Centers the background image */
+			background-repeat: no-repeat;
+			/* Prevents the image from repeating */
+		}
+
+		p {
+			color: black;
+			width: 100%;
+			font-size: 18px;
+			font-family: serif
+		}
+
+		a:link {
+			color: black
+		}
+
+		a:visited {
+			color: #000;
+		}
+
+		a:hover {
+			color: #000;
+		}
+
+		a:active {
+			color: #000;
+		}
+
+		.parent {
+			display: flex;
+			height: 100vh;
+			/* Full height viewport */
+			justify-content: flex-end;
+			/* Horizontally right */
+			align-items: center;
+			/* Vertically center */
+		}
+
+		.child {
+			background-color: rgba(255, 255, 255, 0.8);
+			/* Slight transparency for visibility */
+			padding: 40px 60px;
+			color: white;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			/* Two equal columns */
+			gap: 20px;
+			/* Space between columns */
+			width: 760px
+		}
+
+		.col-1,
+		.col-2 {
+			display: flex;
+			align-items: center;
+			/* Vertically center the content */
+		}
+
+		.col-2 {
+			text-align: right;
+			/* Align text to the right on desktop */
+		}
+
+		/* Mobile View */
+		@media (max-width: 768px) {
+
+			p {
+				color: black;
+				width: 100%;
+				font-size: 22px;
+				font-family: serif
+			}
+
+			a {
+				display: block;
+				margin-bottom: 5px;
+				/* Adjust the value as needed */
+			}
+
+			/* Remove margin from the last anchor tag */
+			a:last-of-type {
+				margin-bottom: 0;
+			}
+
+			.parent {
+				justify-content: center;
+				/* Horizontally center on mobile */
+				align-items: flex-start;
+				/* Vertically top on mobile */
+				padding-top: 20px;
+			}
+
+			.child {
+				grid-template-columns: 1fr;
+				/* Single column for mobile */
+				text-align: center;
+				width: auto;
+				gap: 60px;
+			}
+
+
+			.col-2 {
+				width: 100%;
+				text-align: center;
+				/* Align text to the right on desktop */
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="parent">
+		<div class="child" data-aos="fade-up" data-aos-delay="100">
+			<div class="col-1"><img src="assets/img/logo.png" style="width: 340px"></div>
+			<div class="col-2">
+				<p>Fort Rock Capital S.A.<br>
+					18, Boulevard de Kockelscheuer<br>
+					L-1821 Luxembourg
+					<br><br><br>
+
+					<a href="tel:+352 26201126">+352 26201126</a> <br>
+					<a href="maitto:enquiries@fortrockcapital.com">enquiries@fortrockcapital.com</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
